@@ -382,11 +382,12 @@ body {
     @include headingCSS();
 
     &__item {
-        width: 50%;
+        width: 100%;
         font-weight: 700;
         display: flex;
         justify-content: space-between;
         position: relative;
+        margin: 2rem 0;
 
         &:after {
             content: "";
@@ -559,13 +560,15 @@ body {
 
     .info {
         width: 100%;
+        text-align: center;
 
-        &__avata {
-            border-radius: 20px;
-            width: 100%;
-            height: 279px;
-            transition: all 0.5s linear;
-        }
+        // &__avata {
+        //     border-radius: 20px;
+        //     width: 100%;
+        //     height: 279px;
+        //     transition: all 0.5s linear;
+        //     object-position: center;
+        // }
     }
 
     .filter {
